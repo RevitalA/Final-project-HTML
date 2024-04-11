@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="/CSS + DTD/guides.css"?> 
+<!DOCTYPE guides [
+    <!ELEMENT guides (area*)>
+    <!ELEMENT area (areaname,trip_type*)>
+    <!ELEMENT areaname (#PCDATA)>
+    <!ELEMENT trip_type (trip_type_name ,Guide_details*)> 
+    <!ELEMENT trip_type_name (#PCDATA)>
+    <!ELEMENT Guide_details (guide_mame,lanyuages,experience)>
+    <!ELEMENT guide_mame (#PCDATA)>
+    <!ELEMENT lanyuages (#PCDATA)>
+    <!ELEMENT experience (#PCDATA)>
+]>
+<guides> 
+    <area>
+        <areaname>צפון</areaname> 
+        <trip_type> 
+            <trip_type_name>חופים</trip_type_name>
+            <Guide_details>
+                <guide_mame>שם מלא: דן שדה </guide_mame>
+                <lanyuages>שפות: אנגלית / עברית  </lanyuages>
+                <experience>8 :שנות נסיון  </experience>            
+            </Guide_details>
+            <Guide_details>
+                <guide_mame>שם מלא:יוסי מזרחי</guide_mame>
+                <lanyuages>שפות:עברית/ ספרדית </lanyuages>
+                <experience>5 :שנות נסיון </experience>            
+            </Guide_details> 
+            <Guide_details>
+               <guide_mame>שם מלא:שלי שלי</guide_mame>
+               <lanyuages>שפות:עברית / רוסית</lanyuages>
+               <experience>10 :שנות נסיון </experience>    
+           </Guide_details>                      
+        </trip_type>
+
+        <trip_type> 
+            <trip_type_name>מעיינות</trip_type_name>
+            <Guide_details>
+                <guide_mame>שם מלא: שרה רז </guide_mame>
+                <lanyuages>שפות: אנגלית / עברית </lanyuages>
+                <experience>3 :שנות נסיון  </experience>            
+            </Guide_details>         
+        </trip_type>
+
+        <trip_type>
+            <trip_type_name>מסלולי טבע</trip_type_name>
+            <Guide_details>
+                <guide_mame>שם מלא: דבורה אלטר </guide_mame>
+                <lanyuages>שפות: אנגלית</lanyuages>
+                <experience>8 שנות נסיון:  </experience>            
+            </Guide_details>
+            <Guide_details>
+                <guide_mame>שם מלא:מלכה ירקוני </guide_mame>
+                <lanyuages>שפות:יפנית/ אנגלית /עברית</lanyuages>
+                <experience>15 :שנות נסיון</experience>            
+            </Guide_details>    
+        </trip_type>        
+    </area>
+    <area> 
+        <areaname>מרכז</areaname> 
+        <trip_type> 
+            <trip_type_name>פריחה</trip_type_name>
+            <Guide_details>
+                <guide_mame> דבורה קרישבסקי</guide_mame>
+                <lanyuages> אנגלית / עברית </lanyuages>
+                <experience>7 שנות נסיון  </experience>            
+            </Guide_details>
+            <Guide_details>
+                <guide_mame>עמוס כהן</guide_mame>
+                <lanyuages>עברית</lanyuages>
+                <experience>6 שנות ניסיון</experience>            
+            </Guide_details>           
+        </trip_type>
+        <trip_type> 
+            <trip_type_name>מעיינות</trip_type_name>
+            <Guide_details>
+                <guide_mame> מיכל ממן</guide_mame>
+                <lanyuages> אנגלית / עברית </lanyuages>
+                <experience>9 שנות נסיון  </experience>            
+            </Guide_details>
+            <Guide_details>
+                <guide_mame>בת אל שפיר</guide_mame>
+                <lanyuages> אנגלית / עברית </lanyuages>
+                <experience>20 שנות ניסיון</experience>            
+            </Guide_details>    
+        </trip_type>
+        <trip_type> 
+            <trip_type_name>אגמים</trip_type_name>
+            <Guide_details>
+                <guide_mame> פנינה חמו  </guide_mame>
+                <lanyuages> אנגלית / עברית </lanyuages>
+                <experience>10 שנות נסיון  </experience>            
+            </Guide_details>
+            <Guide_details>
+                <guide_mame>נחמה לאבנשטיין</guide_mame>
+                <lanyuages>עברית</lanyuages>
+                <experience>שנת נסיון</experience>            
+            </Guide_details>    
+        </trip_type>        
+    </area>	
+    <area> 
+        <areaname>דרום</areaname> 
+        <trip_type> 
+            <trip_type_name>פריחה</trip_type_name>
+            <Guide_details>
+                <guide_mame> פנחס סנדרוסי </guide_mame>
+                <lanyuages> אנגלית / עברית </lanyuages>
+                <experience>שנתיים נסיון</experience>            
+            </Guide_details>
+            <Guide_details>
+                <guide_mame>נחמן דחבש</guide_mame>
+                <lanyuages> אנגלית / עברית </lanyuages>
+                <experience>שנתיים נסיון</experience>         
+            </Guide_details>           
+        </trip_type>
+        <trip_type> 
+            <trip_type_name>מעיינות</trip_type_name>
+            <Guide_details>
+                <guide_mame> הודיה טופר  </guide_mame>
+                <lanyuages> אנגלית / עברית </lanyuages>
+                <experience>6 שנות נסיון  </experience>            
+            </Guide_details>
+            <Guide_details>
+                <guide_mame>שושנה ערבליך</guide_mame>
+                <lanyuages>צרפתית/עברית</lanyuages>
+                <experience>19 שנות נסיון</experience>            
+            </Guide_details>    
+        </trip_type>
+        <trip_type> 
+            <trip_type_name>אגמים</trip_type_name>
+            <Guide_details>
+                <guide_mame>יואל נויברגר</guide_mame>
+                <lanyuages>ערבית / עברית</lanyuages>
+                <experience>4 שנות נסיון  </experience>            
+            </Guide_details>
+            <Guide_details>
+                <guide_mame>שאול נדב</guide_mame>
+                <lanyuages>עברית</lanyuages>
+                <experience>11שנות ניסיון</experience>            
+            </Guide_details>    
+        </trip_type>        
+    </area>		
+</guides>

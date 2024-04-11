@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="header" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/CSS + DTD/Main base.css">
+    <button type="button" onclick="document.getElementById('time').innerHTML = Date()">לחץ עליי לקבל תאריך ושעה</button>
+    <style>
+        
+        main.conter div.container {           
+            width: 1080px;
+            height: 640px;   
+        }  
+        form{
+            align-items: center;   
+        }
+        fieldset{
+            width: 350px;
+            padding: 10px; 
+        }
+        fieldset.one{
+            float:right;
+            right: 100px;
+            position: relative;      
+        }
+        fieldset.two{
+            position: relative;
+            vertical-align:top;
+            top: 30px;
+            float: left;
+            left:100px;
+        }
+        input#code  {
+            width: 25%;
+        }
+        div#submit_reset{ 
+            float:left;
+            left: -150px;
+            position: relative;
+            top:450px; 
+        }
+        input#submit{
+            font-size: 1.5em;        
+    } 
+        img.con{
+            width: 1080px;
+        }  
+    </style>
+    <p id="time"></p>
+</head>
+<body>
+    <header class="container-fluid conter">
+        <div id="grad" >
+        <div class="container ">
+            <div class="pictures ">
+                <div class="network" >  
+                    <div class="facebook"><img class="facebook" src="/media/Facebook-f_Logo.png" alt="פייסבוק"> </div>
+                    <div class="whatsapp"><img  class="whatsapp" src="/media/WhatsApp-logo.png" alt="וואצאפ"> </div>
+                    <div class="instagram"><img  class="instagram" src="/media/Instagram--Logo.png" alt="אינסטגרם"> </div>
+                </div> 
+                <div class="logo">
+                     <img class="logo" src="/media/logo_אנגלית-removebg-preview.png" alt="לוגו"> 
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav id="menu" class="container-fluid conter">
+        <div class="container">
+            <div class="nav_menu">
+              <ul class="menu" >
+                <li>
+                    <a href="/קבצי HTML/Nice to meet.html">נעים להכיר</a>
+                </li>
+                <li class="open1" > 
+                    <a href="#"> הכנות לפני הטיול</a>
+                    <div class="opens1">
+                        <a href="/קבצי HTML/list.html"> רשימת ציוד</a>
+                        <a href="#"> ארוחות בשטח</a>
+                        <a href="/קבצי HTML/travel.html">עצירות בדרך</a> 
+                    </div>
+                </li>
+                <li class="open1">
+                    <a href="#">מסלולים</a>
+                    <div class="opens1">
+                        <a href="#"> מעיינות</a>
+                        <a href="#">חופים</a>
+                        <a href="#">מסלולי טבע</a>
+                   </div>
+                </li>
+                <li><a href="/קבצי HTML/Contact Us.html">מדריכים</a ></li>
+                <li><a href="/קבצי HTML/Contact Us.html">צור קשר</a></li>
+              </ul>
+                <div id="search"> 
+                    <label for="gsearch">
+                    <input type="search" id="gsearch">
+                    <input type="submit" value="חפש"></label>
+                </div>        
+            </div>
+        </div>
+    </nav>
+    <main class="container-fluid conter"> 
+        <div class="container">
+            <hr class="hr1">
+            <div class="hp">
+                  <h1>צור קשר</h1>
+                  <h3>חשוב לנו לדעת את דעתך </h3>
+            </div>
+            <form name="formm" action="http://jkorpela.fi/cgi-bin/echo.cgi"  method="get">
+                <fieldset class="one"> <legend>פרטי פניה </legend>
+                <label for="objeto">נושא הפניה: 
+            <!--אפשר לעשות JS לבחור מספר נושאים -->
+                    <select id="objeto" name="objeto" required>
+                            <option value="x">בחר</option>
+                            <option value="New orde">הזמנה חדשה</option>
+                            <option value="complaint">תלונה על המלצה </option>
+                            <option value="new information">עדכון על מידעה חדש</option>
+                            <option value="new guide">עדכון פרטי מדריך חדש</option>
+                            <option value="other">אחר</option>
+                    </select> 
+                </label><br><br>
+                <label> תת נושא: 
+                    <input type="text" name="objeto1" >
+                     <!--תתי נושאים לכל קטגוריה,ת JS לבחור מספר נושאים -->
+                </label><br><br> 
+                <p >תוכן הפניה: 
+                  <br> <textarea name="message" rows="10" cols="40">
+                    </textarea><br>
+                </p>
+                <p id="first face">האם זאת פנייה ראשונה שלך ?
+                    <br><label for=yes>כן   
+                        <input type="radio" name="first face" id="yes" value="yes" checked></label>  
+                    <br><label for=no>לא 
+                        <input type="radio" name="first face" id="no" value="no"></label>  
+                </p>                
+                </fieldset> <br>
+                <fieldset class="two"> <legend>פרטים אישיים</legend>
+                        <label>שם מלא: 
+                            <input type="fname" name="full name" id="full name" required>
+                        </label><br> <br>
+                        <label>תעודת זהות: 
+                            <input type="text"  name="ID" pattern="\d{9}"  autocomplete="on" maxlength="9" minlength="9" placeholder="9 ספרות">
+                        </label><br><br>
+                        <label for="phone">טלפון:
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{4}" maxlength="8" minlength="8" placeholder="123-4567" required>
+                            <input type="text"  name="area_code" id="code" maxlength="3" list="area_code" placeholder="בחר קידומת" required>
+                                <datalist id="area_code">
+                                    <option value="050">050</option>
+                                    <option value="051">051</option>
+                                    <option value="052">052</option>
+                                    <option value="053">053</option>
+                                    <option value="054">054</option>
+                                    <option value="055">055</option>
+                                    <option value="056">056</option>
+                                    <option value="057">057</option>
+                                    <option value="058">058</option>
+                                    <option value="02">02</option>
+                                    <option value="03">03</option>
+                                    <option value="04">04</option>
+                                    <option value="08">08</option>
+                                    <option value="09">09</option>
+                                    <option value="072">072</option>
+                                    <option value="073">073</option>
+                                    <option value="074">074</option>
+                                    <option value="076">076</option>
+                                    <option value="077">077</option>
+                                </datalist>
+                            </label><br><br>
+                        <label for="email">אמייל:
+                            <input type="email" id="email" name="email">
+                        </label><br><br>
+                        <label for="age">גיל:
+                            <input type="number" id="age" name="age" min="16" max="99"> 
+                        </label><br><br>
+                </fieldset>
+                <div id="submit_reset">
+                    <input id="reset" type="reset" name="reset" value="איפוס טופס">
+                    <input id="submit" type="submit" name="send" value="שליחה"> 
+                </div> 
+           </form>
+        </div>
+        <hr class="hr1">  
+    </main>
+    <footer class="container-fluid conter">
+        <div class="container">  
+          <div class="foot">
+            <a class="logo" href="לעמוד הראשי "> <img class="logo_footer" src="/media/logo_אנגלית-removebg-preview.png" alt="לוגו">  </a>
+            <div id="network" >
+                 <h3>עקבו אחרנו:</h3>
+                 <div class="facebook"><img class="facebook" src="/media/Facebook-f_Logo.png" alt="פייסבוק"> </div>
+                 <div class="whatsapp"><img  class="whatsapp" src="/media/WhatsApp-logo.png" alt="וואצאפ"> </div>
+                 <div class="instagram"><img  class="instagram" src="/media/Instagram--Logo.png" alt="אינסטגרם"> </div>
+            </div>
+            <div class="nav">
+                <h2 id="nav">לניווט באתר</h2>
+                <ul class="menu" >
+                    <li><a href="/קבצי HTML/Nice to meet.html">נעים להכיר</a></li>
+                    <li> <a href="#"> הכנות לפני הטיול</a>
+                        <ul class="ulin">
+                            <li><a href="/קבצי HTML/list.html"> רשימת ציוד</a></li>
+                            <li><a href="#"> ארוחות בשטח</a></li>
+                            <li><a href="/קבצי HTML/travel.html">עצירות בדרך</a></li> 
+                        </ul>
+                    </li>
+                    <li><a href="#">מסלולים</a>
+                        <ul class="ulin">
+                            <li><a href="#"> מעיינות</a></li>
+                            <li><a href="#">חופים</a></li>
+                            <li><a href="#">מסלולי טבע</a></li> 
+                        </ul> 
+                    </li>
+                    <li><a href="/קבצי HTML/Contact Us.html">מדריכים</a ></li>
+                    <li><a href="/קבצי HTML/Contact Us.html">צור קשר</a></li>
+                </ul>    
+            </div>       
+          </div>
+        </div>
+    </footer>
+</body>
+</html>
