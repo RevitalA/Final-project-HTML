@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    max-width: 1100px;
+    margin: 0;
+    transition: color 0.4s ease-in-out;
+}
+.content{
+  height: 500px;
+  background-image: url(/media/816e2d21337476423ff10c099b7b9fbc.jpg);
+  background-size: 100% 100%;  
+}
+a{
+    color:wheat;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color:cornflowerblue;
+}
+
+nav li{
+    display: inline-block;
+    margin-inline: 2px;
+}
+header{
+    min-height: 50% !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 3%;
+}
+
+header.top-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline:10px;
+}
+
+.logo-image {
+    margin-left: 25px;
+    width: 200px;
+
+}
+
+footer{
+    text-align: center;
+    padding-block: 10px;
+    
+}
+box.pic {
+    padding: 33%;
+    border: 1px;
+    min-height: 100px;
+    justify-content: space-between;
+    margin-right: 50px;
+    line-height: 170px;
+    vertical-align:middle;  
+}
+
+div.polaroid {
+    float: left;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 30px;
+
+  }
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+  div.polaroid img:hover {
+    transform: scaleX(-1);
+}

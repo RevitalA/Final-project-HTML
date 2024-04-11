@@ -1,0 +1,58 @@
+* {
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     box-sizing: border-box;
+     margin: 0;
+}
+table {
+    text-align: center;
+    width: fit-content;
+    justify-items: right;
+}
+p{
+    text-align: center;
+    font-size: 1.5em;
+    display: block;
+    direction: rtl;
+    text-shadow: 1px;
+}
+form.formbase {
+    display: table;
+}
+
+div.formbase {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+table.tab1{
+    vertical-align:top;
+    float: right;
+    left:0px; 
+    position: relative;
+    top: 0px;     
+}
+table.tab2{
+    vertical-align:top;
+    float: left;
+    left:0px;
+    position: relative;
+    top: 0px;    
+}  
+main img{
+    width: 30%;
+    justify-content: center;
+    padding: 15px;
+}
+.pic {
+    justify-items: center;
+    padding: 15px;
+    border: 1px;
+    min-height: 150px;
+}

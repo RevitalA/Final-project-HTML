@@ -1,0 +1,46 @@
+pre { 
+    font-size: 1.5em;
+    padding: 15px;
+} 
+h1.H1{
+    margin-right: 300px;
+    padding: 10px;
+}
+form.form1 .form2 .form3 {
+    align-items: center
+}
+h2{
+    padding-right: 30px;
+}
+form.form1{
+    width: 250px;
+    padding-right: 30px;
+}
+form.form2{
+    width: 300px;
+    padding-right: 30px;
+}
+table#form1{
+    padding: 10px;
+}    
+table#form2{
+    padding: 10px;
+}       
+table#form3{
+    padding: 10px;
+}
+div.form1{
+    margin-right: 150px;
+}
+div.form2{
+    margin-right:550px;
+    margin-top: -300px;
+}
+div.form3{
+    margin-right: 100px;
+    margin-top: -150px;
+}
+img.img1{
+    margin-right:550px;
+     margin-top: -500px; 
+}

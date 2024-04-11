@@ -1,0 +1,184 @@
+body{
+    height:fit-content;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;    
+}
+.conter{
+    width: 1080px;
+}
+header div#grad{ 
+    width: 1080px;
+    height: 150px;
+    background-color: #cccccc;
+    background-image: linear-gradient(white, rgb(126, 184, 202));  
+}
+header{ 
+    min-height:150px;  
+}
+header div.container .pictures img.logo{
+    height: 100px;
+    vertical-align:top;
+    float: right;
+    margin: 0px;
+    position: relative;
+    top: 20px;
+    left:-700px; 
+}
+header div.container .network{
+    height:150px;
+    float: right;
+    margin: 0px;
+    position: relative;
+    top: 0px;
+    left: 0px; 
+}
+header div.container .network img.facebook {
+  width: 70px;
+}
+header div.container .network img.facebook:hover
+{
+    transform: rotate3d(360deg);
+}
+header div.container .network img.whatsapp { 
+    width: 70px;
+}
+header div.container .network img.instagram {
+    width: 70px;
+}
+nav.conter {
+    min-height:50px;
+}
+nav div.nav_menu{
+    background-color:rgb(126, 184, 202);   
+    height: 50px;
+    padding: 3px;    
+}
+nav#menu ul.menu{
+    width:600px;
+    height: 30px;
+    margin:10px;
+    padding-right: 100px;
+    list-style-type: none;
+    overflow: hidden;
+} 
+nav#menu ul li a:hover{
+    background-color:white;
+}
+nav#menu ul li{
+    float: right;
+}
+nav#menu ul li a{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+    text-decoration:none;    
+    font-weight: bold;
+    color:black ;
+    font-size: 16px;
+    display: block;
+    padding-left: 25px;  
+    border-bottom: 4px solid white;
+    border-radius: 12px; /*נמצא בW3W */
+}
+nav#menu ul li div.opens1 {
+    display: none;
+    position: absolute;
+    width: 150px;
+    z-index: 1;
+}
+nav#menu ul li.open1:hover .opens1{
+    display: block;
+}
+nav#menu div#search{
+    float:left;
+    margin-top: -35px;
+    margin-left:20px;
+}
+main.conter div.container hr.hr1{
+    margin-top: 0;
+    margin-left: 50px;
+    margin-right: 50px;  
+}
+main.conter hr.hr1{
+    margin-bottom: auto;
+    margin-left: 50px;
+    margin-right: 50px;  
+}
+main {
+    height:fit-content;
+    background-image: linear-gradient(rgb(126, 184, 202), white, rgb(126, 184, 202));
+    margin-bottom: 0px;
+}
+footer { 
+    margin: 0px; 
+    width: 1080px;
+    height: 250px;
+    background-image: linear-gradient(rgb(126, 184, 202),white );  
+}      
+footer  div.foot a img.logo_footer { 
+    width: 150px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 150px;
+}
+footer.conter div#network {   
+    width: 100px;
+    height: 200px;
+    float:left;
+    padding: 10px; 
+}
+footer div.container #network img.facebook {
+    width: 70px;
+  }
+footer div.container #network img.whatsapp { 
+      width: 70px;
+  }
+footer div.container #network img.instagram {
+      width: 70px;
+  }
+footer div.container .foot .nav{
+    display: block;
+    margin-right : 300px;
+    width: 400px; 
+    height: 250px;
+  }
+footer div.container .nav h2#nav{
+    float: right ;
+    margin-top: 10px; 
+    ;
+  }
+footer div.container .nav ul.menu{
+    margin-top: 0px ;
+    padding-top:15px;
+    margin-right:150px;
+    list-style-type: none;
+    width: 200px;
+    text-align:right;
+    
+}
+footer div.container .nav ul li a{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+    text-decoration:none;    
+    font-weight: bold;
+    color:black ;
+    font-size: 12px;
+    padding-left: 25px;  
+    border-radius: 12px; /*נמצא בW3W */
+}
+footer div.nav ul li a:hover{  
+    background-color:rgb(141, 129, 245);
+}
+form.formbase {
+    display: table;
+}
+div.formbase {
+    display: table-row;
+}
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+label {
+    padding-right: 10px;
+}
+
+
