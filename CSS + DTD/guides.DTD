@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE guides [
+    <!ELEMENT guides (area+)>
+    <!ELEMENT area (trip_type+)>
+    <!ELEMENT trip_type (Guide_details*)> 
+    <!ELEMENT Guide_details (guide_mame,lanyuages,experience)>
+    <!ELEMENT guide_mame (#PCDATA)>
+    <!ELEMENT lanyuages (#PCDATA)>
+    <!ELEMENT experience (#PCDATA)>
+]>

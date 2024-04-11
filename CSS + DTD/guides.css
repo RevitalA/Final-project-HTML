@@ -1,0 +1,41 @@
+area{  
+    text-align:right;
+    width: 1000px; 
+    float:right;
+    font-style: italic;    
+}
+areaname{ 
+    font-weight:bolder; 
+    color:rgb(174, 97, 151);
+    font-size: 50px;  
+}
+trip_type_name{  
+    display: block;
+    font-size: 25px;
+   text-decoration:underline;
+}
+Guide_details{
+    margin-left:700px;
+    padding: 15px 15px;
+    display: block;
+    width:150px;
+    border: 5px solid #63b3b3;
+    border-radius: 40% 30% / 10% 30%;
+    text-align:right;  
+}
+guide_mame{
+    display: block;
+}
+lanyuages~experience{
+    display: block;
+}
+area:hover {
+    background-color:white ;  
+}
+trip_type{ 
+    float: right;   
+}
+main.conter div.container p#hh{
+    border: solid 3px;
+    text-decoration:underline;  
+}

@@ -1,0 +1,9 @@
+main.conter div.pic img{
+    width: 400PX;
+    padding-right: 200px;
+    top: 100px;
+}
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+}
